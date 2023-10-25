@@ -1,0 +1,51 @@
+.moredetailsdiv{
+    background-color: rgb(238, 236, 236,0.7);
+    position: relative;
+    height: 1900px;
+}
+.moredetails{
+    position: absolute;
+    top: 231px;
+    left: 650px;
+    display: flex;
+}
+
+.moredetailstitle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+}
+.productdetails{
+    position: absolute;
+    top: 368px;
+    left: 244px;
+    /* background-color: gold; */
+    height: 1090.25px;
+    width: 1031px;
+}
+#itemdescription{
+    height: 203.35px;
+    width: 480px;
+}
+.keywordbox{
+    margin-top: 185px;
+}
+.imageupload{
+    height: 42.75px;
+    width: 482px;
+    border-radius: 12px;
+    background-color: rgb(232,184,16);
+    border: none;
+}
+.location{
+    margin-top: 40px;
+}
+.cancelandsave{
+    top: 1150px;
+    left: 300px;
+}
+.forph::placeholder{
+position: absolute;
+top: 30px;
+left: -3px;
+}

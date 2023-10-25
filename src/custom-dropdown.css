@@ -1,0 +1,26 @@
+.rs-dropdown-menu {
+    background-color: white;
+    margin-left: 800px;    
+    
+  }
+  
+  /* Change the background color of the dropdown toggle (title) */
+  .rs-dropdown-toggle {
+    background-color: white;
+    color: black; /* Set the text color */
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 750px;
+  }
+  
+  /* Change the background color of dropdown items on hover */
+  .rs-dropdown-item:hover {
+    background-color: white; /* Change this to the hover color you prefer */
+    
+}
+  
+  /* Change the background color of selected (active) dropdown item */
+  .rs-dropdown-item-active {
+    background-color: white; /* Change this to the selected item color you prefer */
+    
+}

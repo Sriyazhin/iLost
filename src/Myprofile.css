@@ -1,0 +1,103 @@
+.myprofileparentdiv{
+    background-color: rgb(238, 236, 236,0.7);
+    position: relative;
+    height: 1500px;
+}
+.myprofileandeditbutton{
+    position: absolute;
+    top: 210px;
+    left: 648px;
+    display: flex;
+}
+
+.disablefield{
+    background-color: rgba(224, 224, 224, 1);
+}
+.myprofiletitle{
+font-weight: 700;
+font-size: 36px;
+line-height: 43.2px;
+}
+.editbutton{
+    position: absolute;
+width: 92px;
+height: 38px;
+border-radius: 12px;
+background-color: rgba(232,184,16,1);
+border: none;
+top: 5px;
+left: 200px;
+font-size: 13.5px;
+cursor: grab;
+}
+.userdetails{
+    position: absolute;
+    height: 551.5px;
+    width: 1060px;
+    top: 330px;
+    left: 240px;
+}
+.fieldsforinput{
+    display: flex;
+    justify-content: space-between;
+    height: 51.75px;
+    margin-bottom: 35px;
+    position: relative;
+}
+.subtitleforfields{
+    position: absolute;
+    top: 43px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14.4px;
+}
+label{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 13px;
+}
+input{
+    width: 480px;
+    height: 51.75px;
+    border: 0.75px solid rgba(182,182,182,1);
+    border-radius: 12px;
+    background-color: white;
+}
+.formtopbox{
+    border-bottom: 1px solid rgba(148,148,148);
+}
+.changepassword{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28.8px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.cancelandsave{
+    position: absolute;
+    width: 360px;
+    top: 1010px;
+    left: 560px;
+    display: flex;
+    justify-content: space-between;
+}
+.cancelbutton{
+width: 173.41px;
+height: 57px;
+border: 0.8px solid rgba(182,182,182);
+background-color: white;
+border-radius: 10px;
+font-size: 18px;
+line-height: 21.6px;
+cursor: grab;
+}
+.savebutton{
+    width: 173.41px;
+    height: 57px;
+    border: 0.8px solid white;
+    background-color: rgba(232,184,16);
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 21.6px;
+    cursor: grab;
+}

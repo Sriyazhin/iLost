@@ -1,0 +1,89 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .business{
+    border: 1px solid #E8B810;
+    border-radius: 40px;
+    width: 261px;
+    height: 52px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+    font-weight: 700;
+    /* font-family: lato ; */
+    color: #E8B810;
+  }
+  
+  .dropdown-content {
+    display: none;
+    top: 55px;
+    position: absolute;
+    background-color: white;
+    border-radius: 12px;
+    width: 214px;
+    height: 148px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .itemfirst{
+    border-bottom: 2px solid rgb(0, 0, 0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 214px;
+    height: 49px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  .itemone{
+    border-bottom: 2px solid rgb(0, 0, 0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 214px;
+    height: 49px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  .itemlast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 214px;
+    height: 47px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+
+  .itemfirst:hover{
+    background-color: rgb(234, 233, 233,0.3);
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+  }
+
+  .itemone:hover {
+    background-color: rgb(234, 233, 233,0.3);
+  }
+
+  .itemlast:hover{
+    background-color: rgb(234, 233, 233,0.3);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px ;  
+}

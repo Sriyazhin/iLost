@@ -1,0 +1,15 @@
+.mylistingsdiv{
+    position: relative;
+    background-color: rgb(238, 236, 236,0.7);
+    height: 1800px;
+}
+.mylistings{
+position: absolute;
+height: 43px;
+width: 184px;
+font-weight: 500;
+font-size: 36px;
+line-height: 43.2px;
+top: 230px;
+left: 683px;
+}

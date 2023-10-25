@@ -1,0 +1,564 @@
+.entirediv{
+  background-color: rgb(238, 236, 236,0.7);
+}
+
+.loginanddropdown{
+  position: relative;
+}
+.businessdropdown{
+  position: absolute;
+  top: 85px;
+  left: 870px;
+  
+}
+
+.logologinandsearch{
+  position: relative;
+}
+/* .topcurveimage{
+  position: absolute;
+  bottom: 1500px;
+} */
+.logologinbox{
+  background-color: gold;
+}
+.logologin{
+  background-color: white;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 58px;
+  left: 67px;
+  width: 1375px;
+  height: 101px;
+  border-radius: 98px;
+}
+.ilostlogo{
+  margin-left: 50px;
+}
+
+.loginregisterbox{
+  position: absolute;
+  top: 83px;
+  left: 1165px;
+  background-color: #E8B810;
+  border-radius: 40px;
+  /* margin-left: 920px; */
+  Padding: 10px, 32px, 10px, 32px;
+  height: 52px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.loginregisterboxtwo{
+  border: 1px solid #E8B810;
+  border-radius: 40px;
+  margin-left: 920px;
+  /* Padding: 10px, 32px, 0px, 32px; */
+  height: 52px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginword{
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  background-color: #E8B810;
+}
+.loginwordtwo{
+  color: #E8B810;
+  background-color: white;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  border: none;
+}
+.logindialogbox{
+  opacity: 1;
+}
+
+/* .logindialogboxactive{ */
+  
+  /* position: absolute;
+  top: 163px;
+  left: 835px;
+  width: 501px;
+  height: 420px;
+  border-radius: 24px; */
+  /* background-color: white;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+/* } */
+.xcircle{
+  position: absolute;
+  top: 8px;
+  left: 470px;
+}
+.xcirclebutton{
+  border: none;
+  background-color: white;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* .outerdialogbox{
+margin-top: -70px;
+} */
+
+.innerbox{
+  height: 380px;
+  width: 440px;
+}
+.loginandcontent{
+  height: 109px;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logintitle{
+  height: 47px;
+  width: 265px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.logincontent{
+  height: 62px;
+  width: 430px;
+  font-size: 19.5px;
+  font-weight: 400;
+  color: #757780;
+  margin-top: 10px;
+}
+.phonenumberandbusinesslogin{
+  margin-top: 31px;
+  height: 221px;
+  width: 440px;
+}
+.emailaddresspassword{
+  font-size: 14px;
+  font-weight: 500;
+  color: #757780;
+  margin-bottom: 5px;
+}
+.resetpassword{
+  font-size: 14px;
+  font-weight: 500;
+  color: #757780;
+  margin-top: 9px;
+}
+.errornote{
+  font-size: 14px;
+  color: red;
+  margin-top: 9px;
+}
+.registeronsubmit{
+  width: 440px;
+  height: 44px;
+  border-radius: 6px;
+  margin-top: 25px;
+  background-color: #00B8B8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  border-style: none;
+}
+.phonenumberinputbox{
+  width: 440px;
+  height: 48px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  background-color: #E8EDF1;
+}
+.flagcodeandnumber{
+  width: 85px;
+  height: 24px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+}
+/* .countryflags{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.countrycodedropdown{
+  width: 53px;
+  height: 24px;
+  margin-left: 10px;
+}
+.enternumberinput{
+  margin-left: 10px;
+width: 340px;
+
+border-style: none;
+ background-color: #E8EDF1; 
+} */
+.phoneinput {
+  border: none;
+}
+
+.continueonsubmit{
+  width: 440px;
+  height: 44px;
+  border-radius: 6px;
+  margin-top: 18px;
+  background-color: #A7A9AC;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  border-style: none;
+}
+.continuetextlink{
+  text-decoration: none;
+  color: white;
+}
+.orimage{
+  margin-top: 25px;
+}
+.businessowner{
+  width: 220px;
+  height: 22px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.loginlinkandimage{
+  display: flex;
+  width: 190px;
+  height: 20px;
+  margin-left: 8px;
+}
+.businesssignin{
+  display: flex;
+  width: 380px;
+  height: 22px;
+  margin-top: 17px;
+}
+.linksymbol{
+  margin-right: 10px;
+}
+
+.businessloginlink{
+  height: 19px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00B8B8;
+}
+.addressman{
+  position: absolute;
+  top: 200px;
+  left: 1050px;
+}
+.searchreportbox{
+ 
+  height: 195px;
+  position: absolute;
+  top: 314px;
+  left: 90px;
+}
+.searchreport{
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  background-color: white;
+  border: 1px solid rgba(221,221,221);
+  border-radius: 20px;
+  height: 57px;
+  width: 440px;
+}
+.searchreportbutton{
+  height: 59px;
+  width: 220px;
+  border-radius: 16px;
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  border-style: none;
+}
+.optionbox{
+  margin-top: 25px;
+  height: 82px;
+  width: 760px;
+  border-radius: 24px;
+  background-color: white;
+  
+  border: 1px solid rgba(221,221,221);
+  display: flex;
+  align-items: center;
+}
+.searchinputbox{
+  width: 494px;
+  height: 60px;
+  border-radius: 16px;
+  margin-left: 10px;
+  border: 1px solid rgb(9, 9, 9,0.3);
+  color: black;
+}
+.searchbox{
+  width: 230px;
+  height: 60px;
+  border-radius: 16px;
+  border: 1px solid rgb(9, 9, 9,0.1);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background-color: #E8B810;
+}
+::placeholder {
+  color: black;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.doodlebackground{
+  background-color: #D8FFFF;
+  background-repeat: no-repeat;
+  height: 583px;
+  width: 1519px;
+  position: relative;
+
+}
+.doodlebackgroundimage{
+  opacity: 0.06;
+}
+.lostflowimages{
+  display: flex;
+}
+.searchimage{
+  position: absolute;
+  /* display: flex; */
+  top: 160px;
+  left: 50px;
+}
+/* .imagefind{
+  margin-left: 200px;
+} */
+.findimage{
+  position: absolute;
+  top: 160px;
+  left: 600px;
+}
+.collectimage{
+  position: absolute;
+  top: 160px;
+  left: 1200px;
+}
+.ourbusinesses{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 350px;
+  width: 1519px;
+}
+.businesstitle{
+  font-weight: 700;
+  font-size: 36px;
+  color: #676767;
+  margin-left: 102px;
+  margin-bottom: 35px;
+}
+.brandcards{
+  display: flex;
+  padding-left: 100px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 1419px;
+}
+.brandcards::-webkit-scrollbar{
+  width: 0;
+}
+.cardone{
+  background-color: white;
+  height: 177px;
+  width: 194px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  margin-right: 20px;
+}
+.brands{
+  background-color: white;
+  height: 177px;
+  width: 194px;
+  border-radius: 24px;
+}
+.faqs{
+  height: 630px;
+  width: 1519px;
+  background-color: white;
+  margin-bottom: 120px;
+}
+.faqtitleone{
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.faqtitletwo{
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  color: #667085;
+}
+.questionandlogo{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.questionshere{
+  /* height: 434px; */
+  margin-top: 30px;
+  width: 810px;
+  padding: 0px 130px 0px 50px;
+  
+}
+.quesbox{
+  height: 55px;
+  width: 768px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgb(113, 112, 112,0.08);
+}
+
+.ansbox{
+  height: 86px;
+  width: 768px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgb(113, 112, 112,0.08);
+}
+
+.forborderline{
+  border-bottom: none;
+}
+
+.questionpart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-bottom: 28px; */
+}
+.questions{
+  font-size: 20px;
+  font-weight: 500;
+  color: #101828;
+}
+
+.iconbutton{
+  border-style: none;
+  background-color: white;
+  cursor: grab;
+  display: flex;
+}
+.answersforfaq{
+  font-size: 16px;
+  color: #667085;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.faqlogohere{
+  height: 350px;
+  width: 437px; 
+}
+.faqlogoimage{
+  filter: hue-rotate(1015deg);
+}
+
+.countryandlinks{
+  background-color: #E8B810;
+  height: 403px;
+  width: 1519px;
+  display: flex;
+  
+}
+
+.ilostlogoandchangecountry{
+  width: 1519px;
+  margin-top: 76px;
+  /* height: 318px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 85px; */
+  
+
+  /* padding-top: 60px; */
+}
+
+.linkandlistspart{
+  /* height: 290.95px;
+  width: 900.86px; */
+  /* margin-top: 84px; */
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 23px;
+  width: 545px;
+  margin-top: 30px;
+}
+
+.titlelinks{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.1;
+  font-family:  'lato' sans-serif;
+}
+
+.dots{
+margin-left: 30px;
+}
+
+.businesssigninherelink{
+text-decoration: none;
+}
+
+.businesssigninhere{
+height: 31px;
+width: 295px;
+border-radius: 12px;
+margin-top: 15px;
+background-color: rgb(255, 255, 255,0.1);
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 16px;
+font-weight:700;
+letter-spacing: 0.1px;
+font-family:  'lato' sans-serif;
+text-decoration: none;
+}
+
+.copyrightspart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cca30e;
+  height: 43px;
+}

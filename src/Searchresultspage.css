@@ -1,0 +1,145 @@
+.searchresultparentdiv{
+    position: relative;
+    background-color: rgb(238, 236, 236,0.7);
+    height: 1500px;
+}
+.searchtitle{
+    position: absolute;
+    top: 250px;
+    left: 660px;
+    height: 43px;
+    width: 227px;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: lato 'sans-serif';
+}
+
+.searchinputbox{
+    width: 615px;
+    height: 53px;
+    border-radius: 12px;
+    border: 1px solid rgb(182,182,182);
+    color: black;
+    
+}
+
+.searchresultbox{
+    position: absolute;
+    top: 330px;
+    left: 336px;
+    height: 71px;
+  width: 868px;
+  border-radius: 16px;
+  background-color: white;
+  border: 1px solid rgb(221,221,221);
+  display: flex;
+  align-items: center;
+}
+.searchbutton{
+    width: 216px;
+  height: 54px;
+  border-radius: 16px;
+  border: 1px solid rgb(255,255,255);
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background-color: rgb(232,184,16);
+  margin-left: 13px;
+}
+.searchitems{
+    /* height: 500px; */
+    position: absolute;
+    top: 454px;
+    /* left: 125px; */
+    /* background-color: rgb(238, 236, 236,0.7); */
+    
+}
+.search{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    margin-left: 110px;
+    
+}
+.searchcards{
+    margin-top: 20px;
+    height: 438.75px;
+    width: 320.75px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* margin-left: 20px; */
+}
+.carddetails{
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 214px;
+    top: 224px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.keyimage{
+    border-radius: 18px;
+}
+.subcards{
+    width: 240px;
+    height: 180px;
+    margin-top: 20px;
+}
+.itemname{
+    font-weight: 700;
+    font-size: 24px;
+}
+.locationdetails{
+    height: 66px;
+    width: 133px;
+    margin-top: 12px;
+}
+.locations{
+    font-weight: 500;
+    font-size: 14px;
+    width: 150px;
+}
+.coontactandviewitem{
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    height: 42.75px;
+    width: 120px;
+    border-radius: 7.5px;
+    background-color: rgb(232,184,16);
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+.viewitem{
+    margin-top: 30px;
+    height: 32px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.arrowicon{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.sendalert{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
